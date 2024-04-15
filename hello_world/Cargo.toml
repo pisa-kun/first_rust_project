@@ -1,6 +1,5 @@
-workspace = { members = ["hello_world"] }
 [package]
-name = "first_rust_project"
+name = "hello_world"
 version = "0.1.0"
 edition = "2021"
 

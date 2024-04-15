@@ -24,6 +24,22 @@ fn main() {
 2行目にブレークポイントをはってF5実行
 ポップアップが表示されるのでyesを選択後にデバッグできるようになる
 
+### コードをコンパイルして実行
+> cargo run
+
+### 簡易コマンド集
+- プロジェクト作成
+> cargo new project_name
+
+- 実行
+> cargo run
+
+- バイナリ生成
+> rustc src/main.rs
+
 ### 参考
 
 https://learn.microsoft.com/ja-jp/windows/dev-environment/rust/setup
+
+### Rust ByExample
+https://doc.rust-jp.rs/rust-by-example-ja/
