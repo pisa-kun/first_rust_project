@@ -37,6 +37,9 @@ fn main() {
 - バイナリ生成
 > rustc src/main.rs
 
+## LambdaをRustで実行(container経由)
+**/hello_container 参照**
+
 ### 参考
 
 https://learn.microsoft.com/ja-jp/windows/dev-environment/rust/setup

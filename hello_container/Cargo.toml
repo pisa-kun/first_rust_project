@@ -1,0 +1,15 @@
+[package]
+name = "hello-container"
+version = "1.0.0"
+authors = ["pisakun"]
+readme = "readme.md"
+edition = "2018"
+
+# 実行ファイルの配置場所を変更しているため明示的に指定する
+[[bin]]
+name = "hello_container"
+path = "src/bin/hello_container.rs"
+
+[dependencies]
+lambda_runtime = "0.2.1"
+serde = { version = "1", features = ["derive"] }
