@@ -1,4 +1,4 @@
-workspace = { members = [ "basic_data", "conditional_branch", "custome_type", "hello_container","hello_world", "types"] }
+workspace = { members = [ "basic_data", "conditional_branch", "custome_type", "function", "hello_container","hello_world", "types"] }
 [package]
 name = "first_rust_project"
 version = "0.1.0"
